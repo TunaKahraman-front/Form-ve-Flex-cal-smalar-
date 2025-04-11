@@ -1,6 +1,6 @@
 # Form-ve-Flex-calismalari
 # index1
-!(./screenshot1.png)
+![Ekran Görüntüsü](./screenshot1.png)
 
 # index2
 !(./screenshot2.png)
