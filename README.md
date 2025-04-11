@@ -3,16 +3,16 @@
 ![Ekran Görüntüsü](./screenshot1.png)
 
 # index2
-!(./screenshot2.png)
+![Ekran Görüntüsü](./screenshot2.png)
 
 # index3
-!(./screenshot3.png)
+![Ekran Görüntüsü](./screenshot3.png)
 
 # index4
-!(./screenshot4.png)
+![Ekran Görüntüsü](./screenshot4.png)
 
 # index5
-!(./screenshot5.png)
+![Ekran Görüntüsü](./screenshot5.png)
 
 # index6
-!(./screenshot6.png)
+![Ekran Görüntüsü](./screenshot6.png)
