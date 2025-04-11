@@ -1,18 +1,18 @@
 # Form-ve-Flex-calismalari
 # index1
-!(./screenshot1.jpg)
+!(./screenshot1.png)
 
 # index2
-!(./screenshot2.jpg)
+!(./screenshot2.png)
 
 # index3
-!(./screenshot3.jpg)
+!(./screenshot3.png)
 
 # index4
-!(./screenshot4.jpg)
+!(./screenshot4.png)
 
 # index5
-!(./screenshot5.jpg)
+!(./screenshot5.png)
 
 # index6
-!(./screenshot6.jpg)
+!(./screenshot6.png)
