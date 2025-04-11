@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+
+}
+
+.container {
+    display: flex;
+    width: 95%;
+    height: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.form-section {
+    flex: 1;
+    padding-left: 50px;
+    max-width: 500px;
+    object-fit: cover;
+
+}
+
+.form-section h1 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-group input,
+.form-group select {
+    padding: 12px;
+    border: 0px;
+    font-size: 14px;
+    background-color: #eef2f5;
+    border-radius: 2px;
+    height: 50px;
+    max-height: 1600px;
+    width: 55%;
+    max-width: 1600px;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+p {
+    color: #d0d0d0;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+
+button {
+    height: 50px;
+    max-height: 1600px;
+    width: 60%;
+    max-width: 1600px;
+    box-sizing: border-box;
+    border: 0px;
+    background-color: #6d66f2;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.check {
+    margin-top: 20px;
+    border: #6d66f2;
+    width: 20px;
+    height: 15px;
+}
+
+label {
+    color: #d0d0d0;
+    font-size: 14px;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+    accent-color: #6d66f2;
+}
+
+
+.social-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+}
+
+.social-btn.facebook {
+    background-color: #3b5998;
+}
+
+.social-btn.twitter {
+    background-color: #1da1f2;
+}
+
+.social-btn.google {
+    background-color: #db4437;
+}
+
+.social-btn:hover {
+    opacity: 0.9;
+}

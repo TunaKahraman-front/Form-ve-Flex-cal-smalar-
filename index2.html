@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="image-section">
+            <img src="image2.jpeg">
+        </div>
+        <div class="form-section">
+            <h2>STUDENT REGISTRATION FORM</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">NAME :</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="father-name">FATHER NAME :</label>
+                        <input type="text" id="father-name" name="father-name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="address">ADDRESS :</label>
+                    <input type="text" id="address" name="address">
+                </div><br>
+                <div class="form-group">
+                    <div class="radio-group">
+                        <label>Gender :</label>
+                        <input type="radio" id="male" name="gender" value="male" checked>
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+                        <br>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="state">STATE :</label>
+                        <select id="state" name="state">
+                            <option value=""></option>
+                            <option value="state1">State 1</option>
+                            <option value="state2">State 2</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">CITY :</label>
+                        <select id="city" name="city">
+                            <option value=""></option>
+                            <option value="city1">City 1</option>
+                            <option value="city2">City 2</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="dob">DOB :</label>
+                    <input type="" id="dob" name="dob" >
+                </div><br>
+                <div class="form-group">
+                    <label for="pincode">PINCODE :</label>
+                    <input type="text" id="pincode" name="pincode">
+                </div><br>
+                <div class="form-group">
+                    <label for="course">COURSE :</label>
+                    <select id="course" name="course">
+                        <option value=""></option>
+                        <option value="course1">Course 1</option>
+                        <option value="course2">Course 2</option>
+                    </select>
+                </div><br>
+                <div class="form-group">
+                    <label for="email">EMAIL ID :</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-buttons">
+                    <button type="reset" class="reset-btn">RESET ALL</button>
+                    <button type="submit" class="submit-btn">SUBMIT FORM</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
